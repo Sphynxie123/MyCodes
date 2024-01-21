@@ -1,0 +1,74 @@
+body {
+   min-height: 100vh;
+}
+header, article {
+    background:grey;
+}
+a {
+    float: right;
+    padding: 50px;
+    text-decoration: none;
+    color: black;   
+}
+header > img {
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+}
+article {    
+    min-height: 30vh;
+    min-width: 100vh;
+    margin-top: 20px;
+}
+article > h1 {
+    padding: 10px;
+}
+article > h1, p{
+    text-align: center;
+    margin: 10px 10px;
+}
+article > section > header > h2 {    
+    padding: 10px 20px;
+}
+iframe {
+    display: inline-block;
+    width: 350px;
+    height: 150px;
+    margin: auto;
+}
+.Logo {
+    display: inline-block;
+    float: left;
+}
+.column-text {
+    display: inline-block;    
+    float: left;
+    width: 58%; 
+}
+.column-img {
+    display: inline-block;    
+    float: left;
+    width: 38%;
+}
+.column-img > img{
+    display: block;
+    width: 350px;
+    height: 150px;
+    margin: auto;
+}
+.column-col-2-video{
+    border: 1 solid black;
+    display: inline-block;    
+    float: left;
+    width: 38%;
+    padding: 50px;
+}
+.column-ul {
+    display: inline-block;
+    border: 1 solid black;
+    float: left;
+    width: 58%; 
+}
+
+
+   
