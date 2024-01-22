@@ -1,7 +1,7 @@
 body {
    min-height: 100vh;
 }
-header, article {
+header, article, footer {
     background:grey;
 }
 a {
@@ -57,18 +57,31 @@ iframe {
     margin: auto;
 }
 .column-col-2-video{
-    border: 1 solid black;
+    border: 10 solid yellow;
     display: inline-block;    
     float: left;
-    width: 38%;
+    width: 20%;
     padding: 50px;
 }
 .column-ul {
-    display: inline-block;
-    border: 1 solid black;
-    float: left;
-    width: 58%; 
+    padding: 20px;    
+}
+.column-ul > ul {        
+    padding-left: 50px;
+    list-style-type: "- ";
+}
+footer {
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+footer > p {
+    display: inline;
+    padding: 250px;    
+}
+h4 {
+    text-align: center;
 }
 
 
-   
+
