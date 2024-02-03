@@ -1,0 +1,35 @@
+nav, section {
+    background-color: grey;    
+    width: 100vw;
+    margin: 1vh;
+    padding: 1vh;
+}
+a, div {
+    text-decoration: none;
+}
+li {
+    color: blue;    
+}
+a:hover {
+    text-decoration: underline;    
+    color:red;
+}
+section li {        
+    list-style-type: none;
+    border: 1px blue solid;
+    height: 5vh;
+    width: 20vh;    
+    margin: 1vh;
+    padding: 1vh;
+}
+div li a:visited {
+    text-decoration: none;
+    color:blue;
+}
+div li a:hover {
+    text-decoration: none;
+    font-weight: bold;    
+}
+
+
+
