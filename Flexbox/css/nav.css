@@ -1,0 +1,30 @@
+/* .container {
+    border: red solid 0.5rem;
+    max-width: 500px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+ul {
+    max-width: 350px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+li {
+    flex: auto;
+}
+  ul,
+  li {
+    background-color: #4d7298;
+    border: 2px solid #77a6b6;
+    border-radius: 0.5em;
+    color: #fff;
+    padding: 0.5em;
+    margin: 0.5rem;
+    /* display: inline-block; */
+    text-decoration: none;
+  }

@@ -1,0 +1,78 @@
+div {
+    margin: 1px;
+}
+.container {
+    border: black solid 0.5rem;
+}
+.orange > div {
+    height: 5vh;
+    width: 100%;
+    background-color: orange;  
+}
+.green > div {
+    height: 7vh;
+    width: 100%;
+    background-color: green; 
+}
+.blue > div {
+    height: 10vh;
+    width: 100%;
+    background-color: blue; 
+}
+.grey > div {
+    height: 5vh;
+    width: 100%;
+    background-color: grey; 
+}
+.hidden {
+    display: none;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .green > div {
+        height: 15vh;
+        width: 100%;     
+    }
+    .grey {
+        display: flex;
+        flex-wrap: wrap; 
+    }
+    .grey > div {
+        height: 5vh;
+        width: 49.7%;
+    }
+    .hidden {
+        display: block;
+    }
+
+}
+@media screen and (min-width: 1024px){
+    .orange {
+        display: flex;        
+    }
+    .orange > div {
+        height: 5vh;
+        width: 100%;
+    }
+    .green > div {
+        height: 20vh;
+        width: 100%;        
+    }
+    .blue {
+        display: flex;        
+    }
+    .blue > div {
+        height: 15vh;
+        width: 100%;
+    }
+    .grey {
+        display: flex;
+    }    
+    .grey > div {
+        height: 5vh;
+        width: 25%;        
+    }
+    .hidden {
+        display: block;
+    }  
+}
