@@ -1,0 +1,41 @@
+.container {
+    height: 100vh;
+    border: black solid 0.25rem;
+    background-color: grey;
+}
+button {
+    height: 2rem;
+    width: 10rem;
+    border-radius: 10px;
+    margin: auto 1rem;  
+    background-color: lightskyblue;
+    border: none;
+}
+.container-nav {
+    display: flex;
+    /* height: 32vh; */    
+    /* background-color: beige;     */
+    background-color: black;
+}
+.container-nav > span {
+    display: block;
+    /* margin: auto 2rem;   */
+    margin: 0.5rem;
+}
+.container-nav > ul {
+    margin: auto 1rem auto 30rem;    
+}
+.container-nav > ul > li {    
+    list-style-type: none;   
+    display: inline-block;
+    margin: auto 5px;       
+}
+.container-nav > ul > li > a {
+    text-decoration: none;
+    color: white;
+}
+.fa {
+    margin: auto; 
+    color: lightskyblue; 
+}
+  
