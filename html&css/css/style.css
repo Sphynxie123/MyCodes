@@ -1,0 +1,33 @@
+.container {
+    border: black solid 0.25rem;
+    height: 120vh;
+}
+.container-figure{
+    height: 20vh;    
+    /* border: black solid 0.25rem;     */
+    margin: 1rem;
+    display: flex;   
+}
+.container-figure > .circle {
+    height: 18vh;
+    width: 18vw;
+    border: black solid 0.13rem;
+    margin: 0.25rem;
+    border-radius: 50%;
+}
+.container-figure > .rectangle {
+    height: 17vh;
+    width: 80vw;
+    margin: 0.25rem;
+    border: black solid 0.13rem;
+    border-radius: 1.5rem;
+}
+.container-figure > .rectangle > .rectangle-first > .rectangle-small{
+    height: 9vh;
+    width: 12vw;
+    border: black solid 0.25rem;
+    border-radius: 1.2rem;
+    position: absolute;
+    margin-top: 3.5vh;
+    right: 50px;          
+}
