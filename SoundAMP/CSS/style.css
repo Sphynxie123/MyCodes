@@ -1,5 +1,5 @@
 .container {
-    height: 100vh;
+    height: 120vh;
     border: black solid 0.25rem;
     background-color: grey;
 }
@@ -37,5 +37,29 @@ button {
 .fa {
     margin: auto; 
     color: lightskyblue; 
+}
+.container-event > img  {
+    display: block;
+    margin: auto;
+    padding-top: 1rem;
+}
+
+.container-allEvent {
+    display: flex;           
+}
+.container-allEvent > div {
+    display: block;
+    margin: auto;
+    padding-top: 4rem;
+}
+.container > .container-allEvent > div > section {
+    background-color: white;  
+    padding-bottom: 1rem;  
+}
+.container > .container-allEvent > div > section > button {
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    
 }
   
