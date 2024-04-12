@@ -41,7 +41,8 @@ button {
 .container-event > img  {
     display: block;
     margin: auto;
-    padding-top: 1rem;
+    padding-top: 1rem;    
+    width: 95%;
 }
 
 .container-allEvent {
